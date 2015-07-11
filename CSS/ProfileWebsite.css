@@ -1,176 +1,96 @@
+/*Help fix a certain size for logo and headers less than 1600px*/
 @media (max-width: 1600px){
-	#header {
-		width: 910px;
-	}
-	#headertitle {
-		font-size: 250%;
-	}
-	#headersubtitle {
-		font-size: 125%;
-	}
-	#alogo {
-		height: 130px;
-		width: 100px;
-	}
-	#code {
-		height: 400px;
-		width: 910px;
-	}
-	#movie {
-		height: 200px;
-		width: 300px;
-	}
-	#frogger {
-		height: 200px;
-		width: 300px;
-	}
-	#map {
-		height: 200px;
-		width: 300px;
-	}
-	#table {
-		height: 250px;
-		width: 900px;
-	}
-	.footheading {
-		font-size: 175%;
+    .alogo{
+        height: 200px;
+        width:150px;
     }
-	.center {
-		font-size: 175%;
-	}
-	.webfont {
-		font-size: 125%;
-	}
-@media (max-width: 1200px) {
-	#header {
-		width: 600px;
-	}
-	#headertitle {
-		font-size: 175%;
-	}
-	#headersubtitle {
-		font-size: 75%;
-	}
-	#alogo {
-		height: 90px;
-		width: 70px;
-	}
-	#code {
-		height: 300px;
-		width: 600px;
-	}
-	#movie {
-		height: 100px;
-		width: 150px;
-	}
-	#frogger {
-		height: 100px;
-		width: 150px;
-	}
-	#map {
-		height: 100px;
-		width: 150px;
-	}
-	#table {
-		height: 150px;
-		width: 625px;
-	}
-	.footheading {
-		font-size: 150%;
+    .headertitle{
+        font-size: 100px;
     }
-	.center {
-		font-size: 150%;
-	}
-	.webfont {
-		font-size: 100%;
-	}
+    .headersubtitle {
+        font-size: 50px;
+    }
 }
+/*Help fix a certain size for logo and headers less than 1200px*/
+@media (max-width: 1200px){
+    .alogo{
+        height: 120px;
+        width: 100px;
+    }
+    .headertitle{
+        font-size: 75px;
+    }
+    .headersubtitle{
+        font-size: 25px;
+    }
+}
+/*Help fix a certain size for logo and headers less than 600px*/
 @media (max-width: 600px){
-	#header {
-		width: 300px;
-	}
-	#headertitle {
-		font-size: 100%;
-	}
-	#headersubtitle {
-		font-size: 50%;
-	}
-	#alogo {
-		height: 55px;
-		width: 40px;
-	}
-	#code {
-		height: 150px;
-		width: 300px;
-	}
-	#movie {
-		height: 75px;
-		width: 95px;}
-	#frogger {
-		height: 75px;
-		width: 95px;
-	}
-	#map {
-		height: 75px;
-		width: 95px;
-	}
-	#table {
-		height: 150px;
-		width: 275px;
-	}
-	.footheading {
-		font-size: 100%;
+    .alogo{
+        height: 70px;
+        width: 50px;
     }
-	.center {
-		font-size: 100%;
-	}
-	.webfont {
-		font-size: 50%;
-	}
+    .headertitle{
+        font-size: 45px;
+    }
+    .headersubtitle{
+        font-size: 15px;
+    }
 }
-#headertitle {
-	text-align: right;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	margin: 0;
-	padding: 0;
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
 }
-#headersubtitle {
-	text-align: right;
-	font-family: monospace;
-	margin: 0;
-	padding: 0;
+p {
+    margin: 0;
+    padding: 0;
 }
-.oneborder{
-	border-style: solid;
-	border-width: 1px;
+h2 {
+    margin: 0;
+    padding: 0;
 }
-.footheading {
-	color: #a9a9a9;
-	margin: 0;
-	padding: 0;
+hr {
+    height: 4px;
+    background-color: #bcbbbb;
+}
+.headertitle {
+    text-align: right;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+.headersubtitle{
+    text-align: right;
+    margin: 0;
+    padding: 0;
 }
 .center {
-	text-align: center;
-	margin: 0;
-	padding: 0;
+    text-align: center;
 }
-#movie{
-	display: block;
+.textfootheading {
+    color: #bcbbbb;
+    padding-left: 15px
+}
+/*Images in the footer*/
+.movie{
+    margin: 0;
+    padding: 0;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
-#frogger{
-	display: block;
+.frogger{
+    margin: 0;
+    padding-top:10px;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center; 
+}
+.map{
+    margin: 0;
+    padding-top: 20px;
     margin-left: auto;
     margin-right: auto;
-}
-#map{
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.webfont {
-	text-align: center;
-	margin: 0;
-	padding: 0;
+    text-align: center;
 }
